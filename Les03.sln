@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkshopSASS", "WorkshopSASS\WorkshopSASS.csproj", "{8E56F92B-1724-45FB-9938-03CF1B37E579}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oefening01-PostCSS", "Oefening01-PostCSS\Oefening01-PostCSS.csproj", "{958CCDCA-572B-4DF2-B866-B60773ADD4F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening02-BootstrapViaCDN", "Oefening02-BootstrapViaCDN\Oefening02-BootstrapViaCDN.csproj", "{67F8A5ED-DA8D-467F-B550-E118F3D75514}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening03-BootstrapViaNPM", "Oefening03-BootstrapViaNPM\Oefening03-BootstrapViaNPM.csproj", "{29364AEA-69A5-432E-93E1-3C7FC94673FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{8E56F92B-1724-45FB-9938-03CF1B37E579}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E56F92B-1724-45FB-9938-03CF1B37E579}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E56F92B-1724-45FB-9938-03CF1B37E579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958CCDCA-572B-4DF2-B866-B60773ADD4F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958CCDCA-572B-4DF2-B866-B60773ADD4F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958CCDCA-572B-4DF2-B866-B60773ADD4F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958CCDCA-572B-4DF2-B866-B60773ADD4F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F8A5ED-DA8D-467F-B550-E118F3D75514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F8A5ED-DA8D-467F-B550-E118F3D75514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F8A5ED-DA8D-467F-B550-E118F3D75514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F8A5ED-DA8D-467F-B550-E118F3D75514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29364AEA-69A5-432E-93E1-3C7FC94673FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29364AEA-69A5-432E-93E1-3C7FC94673FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29364AEA-69A5-432E-93E1-3C7FC94673FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29364AEA-69A5-432E-93E1-3C7FC94673FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

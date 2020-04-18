@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Oefening04_BootstrapViaNPM
+namespace Oefening01_PostCSS
 {
     public class Startup
     {
@@ -28,8 +28,13 @@ namespace Oefening04_BootstrapViaNPM
 
             app.UseRouting();
 
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapGet("/", async context =>
+                {
+                    await context.Response.WriteAsync("Hello World!");
+                });
+            });
         }
     }
 }

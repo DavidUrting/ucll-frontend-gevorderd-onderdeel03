@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Oefening03_BootstrapViaCDN
+namespace Oefening03_BootstrapViaNPM
 {
     public class Startup
     {

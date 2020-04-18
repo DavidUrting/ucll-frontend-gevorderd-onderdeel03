@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Oefening04_BootstrapViaNPM
+namespace Oefening02_BootstrapViaCDN
 {
     public class Program
     {
