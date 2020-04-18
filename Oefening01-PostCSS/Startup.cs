@@ -27,14 +27,8 @@ namespace Oefening01_PostCSS
             }
 
             app.UseRouting();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-            });
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
         }
     }
 }
